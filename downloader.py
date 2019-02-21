@@ -7,7 +7,7 @@ import sys
 from time import sleep
 from urllib.request import urlopen
 
-DB_url = 'https://raw.githubusercontent.com/zzzz465/Rimworld-automatic-mod-sorter/master/db_template.json'
+DB_url = 'https://raw.githubusercontent.com/gartia/Rimworld-automatic-mod-sorter/master/db_template.json'
 
 def download_DB(DB, Ver): # DB 다운받아서, DB 반환, 버전 체크도 함께
     tempdir = tempfile.mkdtemp()
